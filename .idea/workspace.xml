@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0be3279d-521a-4b78-896c-181f95b2ae5d" name="Changes" comment="test testu">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/myNewTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/myNewTest.feature" afterDir="false" />
+    <list default="true" id="0be3279d-521a-4b78-896c-181f95b2ae5d" name="Changes" comment="test testu testowany stestowany testowo">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/AuthenticationStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/FirstStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/GoogleStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/polishGherkinExample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/authentication.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/authentication.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: googleSearch (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Authentication - negative flow">
     <configuration name="Feature: googleSearch (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
@@ -93,15 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Search in Gogle with Scenario Outline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Authentication - negative flow" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/myNewTest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/authentication.feature" />
       <option name="GLUE" value="com.sda.zdtestpol103.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="zdtestpol103" />
-      <option name="NAME_FILTER" value="^Search in Gogle with Scenario Outline$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search in Gogle with Scenario Outline$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search in Gogle with Scenario Outline" />
+      <option name="NAME_FILTER" value="^Authentication \- negative flow$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Authentication \- negative flow$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Authentication - negative flow" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -113,15 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Search in Google" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Search in Gogle with Scenario Outline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/myNewTest.feature" />
       <option name="GLUE" value="com.sda.zdtestpol103.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="zdtestpol103" />
-      <option name="NAME_FILTER" value="^Search in Google$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search in Google$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search in Google" />
+      <option name="NAME_FILTER" value="^Search in Gogle with Scenario Outline$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search in Gogle with Scenario Outline$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search in Gogle with Scenario Outline" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: googleSearch (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Authentication - negative flow" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: googleSearch (1)" />
         <item itemvalue="Cucumber Java.Feature: myNewTest" />
         <item itemvalue="Cucumber Java.Scenario: Search in Gogle with Scenario Outline" />
-        <item itemvalue="Cucumber Java.Scenario: Search in Google" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659181724115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test testu testowany">
+      <created>1659187458682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659187458682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test testu" />
-    <option name="LAST_COMMIT_MESSAGE" value="test testu" />
+    <MESSAGE value="test testu testowany" />
+    <MESSAGE value="test testu testowany stestowany testowo" />
+    <option name="LAST_COMMIT_MESSAGE" value="test testu testowany stestowany testowo" />
   </component>
 </project>
