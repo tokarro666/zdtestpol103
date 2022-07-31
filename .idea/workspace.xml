@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0be3279d-521a-4b78-896c-181f95b2ae5d" name="Changes" comment="test testu testowany stestowany testowo">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/AuthenticationStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/FirstStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/GoogleStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/polishGherkinExample.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/authentication.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/authentication.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659187458682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test testu testowany stestowany testowo">
+      <created>1659189620243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659189620243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
