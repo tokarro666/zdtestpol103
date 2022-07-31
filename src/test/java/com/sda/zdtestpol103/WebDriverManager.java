@@ -1,6 +1,6 @@
 package com.sda.zdtestpol103;
 
-import com.opera.core.systems.OperaDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -25,14 +25,11 @@ public class WebDriverManager {
             case "safari":
                 DRIVER = new SafariDriver();
                 break;
-            case "opera":
-                DRIVER = new OperaDriver();
-                break;
             default:
                 throw new IllegalStateException("UNSUPPORTED BROWSER !!!!!!!!!!!!!!!");
 
         }
-        DRIVER.manage().window().minimize();
+        DRIVER.manage().window().maximize();
     }
 
     public static void destroyDriver() {
