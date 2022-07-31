@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0be3279d-521a-4b78-896c-181f95b2ae5d" name="Changes" comment="test testu testowany stestowany testowo">
+    <list default="true" id="0be3279d-521a-4b78-896c-181f95b2ae5d" name="Changes" comment="test z selenium">
+      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/WebDriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/48517/Desktop/reoozytoria/ZDTESTpol103/src/test/java/com/sda/zdtestpol103/steps&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/48517/Desktop/reoozytoria/ZDTESTpol103/src/test/java/com/sda/zdtestpol103/steps",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Authentication - negative flow">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: googleSearch (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
@@ -146,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Authentication - negative flow" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Authentication - negative flow" />
         <item itemvalue="Cucumber Java.Feature: googleSearch (1)" />
         <item itemvalue="Cucumber Java.Feature: myNewTest" />
         <item itemvalue="Cucumber Java.Scenario: Search in Gogle with Scenario Outline" />
@@ -184,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659189620243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test z selenium">
+      <created>1659261537502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659261537502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,9 +210,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test testu" />
     <MESSAGE value="test testu testowany" />
     <MESSAGE value="test testu testowany stestowany testowo" />
-    <option name="LAST_COMMIT_MESSAGE" value="test testu testowany stestowany testowo" />
+    <MESSAGE value="test z selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="test z selenium" />
   </component>
 </project>
